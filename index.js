@@ -12,7 +12,7 @@ if (typeof RNI18n !== 'undefined') {
 
 if (typeof RNI18n == null) {
   RNI18n = {
-    getLanguages: () => Promise.resolve(['en']);
+    getLanguages: () => Promise.resolve(['en']),
   }
 }
 
